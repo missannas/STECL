@@ -1,6 +1,6 @@
 # STECL
 
-This repo contains the data and code for our paper [STECL:  Multi-level Contrastive Learning Framework for Sentiment Triplet Extraction].
+This repo contains the data and code for our paper [STECL: A Multi-level Contrastive Learning Framework for Sentiment Triplet Extraction].
 
 
 ## Requirements
@@ -41,8 +41,8 @@ python main.py --task aste \
             --cl=True \
             --T=0.07 
 ```
-- `$task` refers to one of the STE task in [`aste`, `tasd`] 
-- `$dataset` refers to one of the four datasets in [`laptop14`, `rest14`, `rest15`, `rest6`]
+- `$task` refers to one of the STE task in [`aste`, `acsd`] 
+- `$dataset` refers to one of the four datasets in [`laptop14`, `rest14`, `rest15`, `rest16`]
 - `$cl` refers to use contrastive learning to optimize
 More details can be found in the paper and the help info in the `main.py`.
 
